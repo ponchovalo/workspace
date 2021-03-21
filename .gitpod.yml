@@ -3,5 +3,5 @@ image:
 
 tasks: 
   - init: npm install
-  - init: npm install -g @angular/cli
+  command: -g @angular/cli
 
