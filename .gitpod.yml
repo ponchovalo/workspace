@@ -2,6 +2,5 @@ image:
   file: .gitpod.Dockerfile
 
 tasks: 
-  - init: npm install
-  command: -g @angular/cli
+  - init: -g @angular/cli
 
