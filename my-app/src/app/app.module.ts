@@ -12,6 +12,7 @@ import { ImpresorasModule } from './impresoras/impresoras.module';
     BrowserModule,
     ImpresorasModule
 
+
   ],
   providers: [],
   bootstrap: [AppComponent]

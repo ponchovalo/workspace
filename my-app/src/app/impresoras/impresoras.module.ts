@@ -1,15 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ImpresorasComponent } from './impresoras.component';
+import { FormimpresorasComponent } from './formimpresoras.component';
 
 
 
 @NgModule({
   declarations: [
-    ImpresorasComponent
+    ImpresorasComponent,
+    FormimpresorasComponent
   ],
   exports: [
-    ImpresorasComponent
+    ImpresorasComponent,
+    FormimpresorasComponent
   ],
   imports: [
     CommonModule
