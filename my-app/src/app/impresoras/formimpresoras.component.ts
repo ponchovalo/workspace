@@ -15,6 +15,8 @@ export class FormimpresorasComponent implements OnInit {
     mac: '',
   }
 
+  im: string;
+
   constructor() { }
 
   ngOnInit(): void {

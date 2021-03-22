@@ -4,15 +4,16 @@
 <form action="">
 
   <label for="nombre">Nombre</label>
-  <input type="text" [(ngModel)] = 'impresora.nombre'>
+  <input type="text" ngModel = 'impresora.nombre'/><br>
+  <label for="nombre">Ubicacion</label>
+  <input type="text" ngModel = 'impresora.ubicacion'/><br>
+  <label for="nombre">Serie</label>
+  <input type="text" ngModel = 'impresora.serie'/><br>
+  <label for="nombre">IP</label>
+  <input type="text" ngModel = 'impresora.ip'/><br>
+  <label for="nombre">MAC</label>
+  <input type="text" ngModel = 'impresora.mac'/><br>
 
-  <label for="ubicacion">Ubicacion</label>
-  <input type="text" [(ngModel)] = 'impresora.ubicacion'>
-
-  <label for="serie">Numero de Serie</label>
-  <input type="text" [(ngModel)] = 'impresora.serie'>
-
-  <label for="ip">IP</label>
-  <input type="text" [(ngModel)] = 'impresora.ip'>
+  <button>Agregar</button>
 
 </form>
